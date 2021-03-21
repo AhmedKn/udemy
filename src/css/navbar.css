@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navbar h3{
+    color: grey;
+    font-family: sans-serif;
+}
+.navbar input{
+    width: 688px;
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 50px;
+    border: 2px solid grey;
+}
+.hovred11, .hovred22{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  padding: 20px;
+  top: 55px;
+}
+.btn-section{
+    width:231px ;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-section button{
+height: 35px;
+width: 110px;
+background-color: inherit;
+border: solid 1px blue;
+color: blue;
+font-weight: bold;
+
+}
+.btn-section button:nth-child(2){
+    background-color: blue;
+    color: white;
+}
+.btn-section button:nth-child(1):hover{
+    background-color: blue;
+    color: white;
+    border: solid 1px blue;
+}
+.btn-section button:nth-child(2):hover{
+    background-color: white;
+    color: blue;
+    border: solid 1px blue;
+}
+.firsthover:hover .hovred11{
+    display: block;
+}
+
+
+p{
+    font-family: sans-serif;
+}
